@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-service.s-service"
+    }
+  }
+}

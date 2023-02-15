@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-footer.s-footer"
+    }
+  }
+}

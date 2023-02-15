@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_not_founds",
+  "info": {
+    "displayName": "NotFound",
+    "icon": "circle-notch"
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-not-found.section-not-found"
+    }
+  }
+}

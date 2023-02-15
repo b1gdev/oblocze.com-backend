@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "map-marked",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-map.s-map"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_dropdown_links",
+  "info": {
+    "displayName": "DropdownLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "regex": "^(http(s)?:\\/)?\\/(\\w+:{0,1}\\w*@)?(\\S+)?(:[0-9]+)?(\\/|\\/([\\w#!:.?+=&%@!\\-\\/]))?$",
+      "required": true
+    },
+    "subItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.link"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_social_columns",
+  "info": {
+    "displayName": "SocialColumn",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialLink": {
+      "displayName": "SocialLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.social-link"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_social_links",
+  "info": {
+    "displayName": "SocialLink",
+    "icon": "unlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "Twitter",
+        "Phone",
+        "Skype",
+        "Mail",
+        "House",
+        "Odnoklassniki",
+        "Steam",
+        "VK"
+      ],
+      "required": true
+    }
+  }
+}

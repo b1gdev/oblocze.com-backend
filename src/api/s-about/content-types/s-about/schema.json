@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_abouts",
+  "info": {
+    "singularName": "s-about",
+    "pluralName": "s-abouts",
+    "displayName": "section About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": true,
+      "max": 99,
+      "min": 2
+    },
+    "component": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "About",
+      "required": true,
+      "maxLength": 5,
+      "minLength": 5
+    },
+    "sectionTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "abouts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::about.about"
+    },
+    "sectionId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

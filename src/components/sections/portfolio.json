@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_portfolios",
+  "info": {
+    "displayName": "Portfolio",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-portfolio.s-portfolio"
+    }
+  }
+}

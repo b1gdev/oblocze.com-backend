@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_technologies",
+  "info": {
+    "displayName": "Technologies",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-technology.s-technology"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::s-team.s-team"
+    }
+  }
+}

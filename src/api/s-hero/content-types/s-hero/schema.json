@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_heroes",
+  "info": {
+    "singularName": "s-hero",
+    "pluralName": "s-heroes",
+    "displayName": "section Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "position": {
+      "type": "integer",
+      "required": true,
+      "max": 99,
+      "min": 2,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "component": {
+      "type": "string",
+      "default": "Hero",
+      "required": true,
+      "maxLength": 4,
+      "minLength": 4,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "images": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery.gallery"
+    },
+    "sectionId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "sectionTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
